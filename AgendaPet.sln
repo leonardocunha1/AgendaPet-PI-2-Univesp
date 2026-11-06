@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{48FDB450-A37E-4FE1-9AE1-D56ABBCF62DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendaPet.Api", "src\AgendaPet.Api\AgendaPet.Api.csproj", "{0BEE6298-09D7-4CEA-809E-CED665B4A038}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{FF8E584C-4618-435A-BB93-41C2C7B5AB4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendaPet.Tests", "tests\AgendaPet.Tests\AgendaPet.Tests.csproj", "{D7D630E0-B61C-48B1-B2AB-D4EC283CC0B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BEE6298-09D7-4CEA-809E-CED665B4A038}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BEE6298-09D7-4CEA-809E-CED665B4A038}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BEE6298-09D7-4CEA-809E-CED665B4A038}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BEE6298-09D7-4CEA-809E-CED665B4A038}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7D630E0-B61C-48B1-B2AB-D4EC283CC0B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7D630E0-B61C-48B1-B2AB-D4EC283CC0B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7D630E0-B61C-48B1-B2AB-D4EC283CC0B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7D630E0-B61C-48B1-B2AB-D4EC283CC0B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0BEE6298-09D7-4CEA-809E-CED665B4A038} = {48FDB450-A37E-4FE1-9AE1-D56ABBCF62DF}
+		{D7D630E0-B61C-48B1-B2AB-D4EC283CC0B3} = {FF8E584C-4618-435A-BB93-41C2C7B5AB4F}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,13 @@
+services:
+  agendapet:
+    build: .
+    image: agendapet:latest
+    container_name: agendapet
+    ports:
+      - "5000:5000"
+    volumes:
+      - agendapet-dados:/data   # o banco SQLite fica aqui e sobrevive a atualizações
+    restart: unless-stopped
+
+volumes:
+  agendapet-dados:
